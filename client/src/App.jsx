@@ -13,7 +13,7 @@ const App=() =>{
         </div>
 
 
-        <div className="sm:flex max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
+        <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
             <Navbar/>
 
             <Routes>
