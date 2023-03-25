@@ -19,7 +19,7 @@ const Navbar = () => {
           <input type="text" placeholder="search for campaigns" className="flex w-full font-epilogue font-normal text-[14px] placeholder:text[#rb5264] text-white bg-transparent outline-none"/>
            
            <div className="w-[72px] h-full rounded-[20px] bg-[#4acd8d] flex justify-center items-center cursor-pointer">
-                <img src={search} alt="search" classname="w-[15px] h-[15px] object-contain"/>
+                <img src={search} alt="search" className="w-[15px] h-[15px] object-contain"/>
            </div>
            
         </div>
@@ -93,14 +93,9 @@ const Navbar = () => {
                       />
                   </div>
 
-
-
+                  
               </div>
-
         </div>
-
-
-      
     </div>
   )
 }
